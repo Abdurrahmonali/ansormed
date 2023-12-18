@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+* {
+display: block;
+text-decoration: none;
+list-style: none;
+}
+*:focus {
+  background-color: #DE2E54;
+  color: #fff;
+  outline-color: gold;
+  outline-style: solid;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* HEADER */
+.site-header {
+width: 1440px;
+height: 98px;
+padding: 24px;
+}
+.site-header-container {
+  width: 1100px;
+  height: 50px;
+  display: flex;
+ justify-content: space-between;
+ padding-left: 170px;
+}
+.site-header-container:last-child {
+margin-left: 0px;
+}
+.icon {
+margin: 0%;
+  display: flex;
+  align-items: center;
+  opacity: 60;
+}
+.icon a {
+  margin: 0%;
+  margin-right: 16px;
+  width: 119px;
+  height: 33px;
+font-family: "Open Sans" sans-serif;
+font-weight: 600;
+font-size: 24px;
+line-height: 32.68px;
+}
+.site-nav {
+  display: flex;
+}
+.site-nav-link {
+  font-family: "Open Sans" sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 2px;
+  margin: 0%;
+  margin-left: 30px;
+}
+.site-nav-link :last-child {
+  margin-left: 0%;
+}
+.site-nav :hover {
+color: #DE2E54;
+}
+.site-nav :active {
+color: #DE2E54;
+}
+.buttom {
+  background-color: #DE2E54;
+  color: #fff;
+  opacity: 60;
+  border: 2px solid #DE2E54;
+width: 189px;
+height: 47px;
+border-radius: 8px;
+
+
+}
+.buttom:hover {
+  background-color: #fff;
+  color: #DE2E54;
+  width: 141px;
+  height: 23px;
+  font-family: Open Sans Condensed;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22.5px;
+  letter-spacing: 2px;
+  align-items:center;
+  padding: 12px 24px 12px 24px;
+}
+.buttom:focus {
+  background-color: #DE2E54;
+  color: #0EB4C1;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+width: 1440px;
+height: 533px;
+background-color: #0EB4C1;
+color: #fff;
+}
+.hero-content {
+  padding-left: 170px;
+  margin-right: 130px;
+}
+.hero-content h2{
+font-family: Open Sans Condensed;
+font-weight: 700;
+font-size: 36px;
+line-height: 43.2px;
+margin-top: 0%;
+padding-top: 120px;
+}
+.hero-content p {
+  width: 440px;
+  height: 108px;
+font-family:"Open Sans" sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+margin-top: 0%;
+}
