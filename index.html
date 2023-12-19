@@ -11,24 +11,23 @@
 </head>
 <body>
 
-  <container class="container">
+  <div class="container">
     <!-- HIDER -->
     <header class="site-header">
       <div class="site-header-container">
-          <div class="logo">
-            <a href="index.html"><img src="img/logo-icon.svg" alt="sayt logosi" class="logo-img"></a>
-            <a href="logo matni" class="logo-text">AnsorMed</a>
-          </div>
-
+        <div class="logo">
+          <a href="index.html"><img src="img/logo-icon.svg" alt="sayt logosi" class="logo-img"></a>
+          <a href="index.html" class="logo-text">AnsorMed</a>
+        </div>
+        <nav class="site-nav">
           <ul>
-              <nav class="site-nav">
-              <li class="site-nav-link"><a href="#">XIZMATLAR</a></li>
-              <li class="site-nav-link"><a href="#">DORILAR</a></li>
-              <li class="site-nav-link"><a href="#">ASAL</a></li>
-              <li class="site-nav-link"><a href="#">KONTAKTLAR</a></li>
-              <li class="site-nav-link"><a href="#">BLOG</a></li>
-            </nav>
+            <li class="site-nav-link"><a href="#">XIZMATLAR</a></li>
+            <li class="site-nav-link"><a href="#">DORILAR</a></li>
+            <li class="site-nav-link"><a href="#">ASAL</a></li>
+            <li class="site-nav-link"><a href="#">KONTAKTLAR</a></li>
+            <li class="site-nav-link"><a href="#">BLOG</a></li>
           </ul>
+        </nav>
         <a href="#" class="buttom">QABULGA YOZILISH</a>
       </div>
     </header>
@@ -75,33 +74,38 @@
             </section>
           </li>
         </ul>
-        <a href="#" class="buttom">QABULGA YOZILISH</a>
+        <div class="service-button"><a href="#" class="buttom">QABULGA YOZILISH</a></div>
       </div>
+
+      <!-- CTA -->
       <div class="cta">
         <h2>Qabulga ro’yxatdan o’ting</h2>
-        <a href="#">Qo’ng’iroq qilish</a>
-        <a href="#">Telegramdan yozish</a>
+        <div class="cta-buttons">
+          <a href="#" class="phone">QO'NG'IROQ QILISH</a>
+          <a href="#" class="telegram">TELEGRAMDAN YOZISH</a>
+        </div>
       </div>
     </main>
-    <!-- FOOTER -->
 
+    <!-- FOOTER -->
     <footer class="site-footer">
       <div class="footer-container">
         <div class="logo">
           <a href="index.html"><img src="img/logo-icon.svg" alt="sayt logosi" class="logo-img"></a>
-          <a href="logo matni" class="logo-text">AnsorMed</a>
+          <a href="index.html" class="logo-text footer-logo-text">AnsorMed</a>
         </div>
 
-        <ul class="site-nav">
-            <li class="site-nav-link"><a href="#">XIZMATLAR</a></li>
-            <li class="site-nav-link"><a href="#">DORILAR</a></li>
-            <li class="site-nav-link"><a href="#">ASAL</a></li>
-            <li class="site-nav-link"><a href="#">KONTAKTLAR</a></li>
-            <li class="site-nav-link"><a href="#">BLOG</a></li>
-        </ul>
-
+        <nav class="site-nav">
+          <ul class="footernav">
+            <li class="site-nav-link"><a href="#" class="footer-links">XIZMATLAR</a></li>
+            <li class="site-nav-link footer-links"><a href="#" class="footer-links">DORILAR</a></li>
+            <li class="site-nav-link footer-links"><a href="#" class="footer-links">ASAL</a></li>
+            <li class="site-nav-link footer-links"><a href="#" class="footer-links">KONTAKTLAR</a></li>
+            <li class="site-nav-link footer-links"><a href="#" class="footer-links">BLOG</a></li>
+          </ul>
+        </nav>
       </div>
     </footer>
-  </container>
+  </div>
 </body>
 </html>
